@@ -1,9 +1,9 @@
 html {
-  background-color: #bcbec0;
+  background-color: #808080;
 }
 
 header{
-background-color: #bcbec0;
+background-color: #1b1612;
 }
 
 h1 {
@@ -22,13 +22,20 @@ h1 {
 
 td {
   text-align: center;
+  border: none;
 }
 
+th {
+  border: none;
+}
 
+.pricing {
+  background-color: #bcbec0;
+}
 
 .banner-index {
   background-image: url(../images/gilles-lambert-8649-unsplash.jpg);
-  min-height: 500px;
+  min-height: 400px;
   background-size: cover;
   background-position: 50% 0%;
   }
