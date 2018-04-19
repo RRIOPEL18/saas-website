@@ -1,9 +1,17 @@
 html {
-  background-color: #00ffff;
+  background-color: #bcbec0;
+}
+
+header{
+background-color: #bcbec0;
 }
 
 h1 {
   color: #fff;
+}
+
+.alternative {
+  background-color: #fff;
 }
 
 .btn {
@@ -12,13 +20,29 @@ h1 {
   border-color: #fff;
 }
 
+td {
+  text-align: center;
+}
 
 
 
-
-.banner {
+.banner-index {
   background-image: url(../images/gilles-lambert-8649-unsplash.jpg);
   min-height: 500px;
   background-size: cover;
   background-position: 50% 0%;
   }
+
+  .banner-tour {
+    background-image: url(../images/laptop-2589420.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-position: 50% 0%;
+    }
+
+    .banner-pricing {
+      background-image: url(../images/lauren-mancke-69437-unsplash.jpg);
+      min-height: 500px;
+      background-size: cover;
+      background-position: 50% 0%;
+      }
