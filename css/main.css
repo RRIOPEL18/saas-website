@@ -1,0 +1,24 @@
+html {
+  background-color: #00ffff;
+}
+
+h1 {
+  color: #fff;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+  border-color: #fff;
+}
+
+
+
+
+
+.banner {
+  background-image: url(../images/gilles-lambert-8649-unsplash.jpg);
+  min-height: 500px;
+  background-size: cover;
+  background-position: 50% 0%;
+  }
