@@ -3,7 +3,7 @@ html {
 }
 
 header{
-background-color: #079992;
+  background-color: #079992;
 }
 
 h1 {
@@ -38,18 +38,18 @@ th {
   min-height: 400px;
   background-size: cover;
   background-position: 50% 0%;
-  }
+}
 
-  .banner-tour {
-    background-image: url(../images/laptop-2589420.jpg);
-    min-height: 500px;
-    background-size: cover;
-    background-position: 50% 0%;
-    }
+.banner-tour {
+  background-image: url(../images/laptop-2589420.jpg);
+  min-height: 500px;
+  background-size: cover;
+  background-position: 50% 0%;
+}
 
-    .banner-pricing {
-      background-image: url(../images/lauren-mancke-69437-unsplash.jpg);
-      min-height: 500px;
-      background-size: cover;
-      background-position: 50% 0%;
-      }
+.banner-pricing {
+  background-image: url(../images/lauren-mancke-69437-unsplash.jpg);
+  min-height: 500px;
+  background-size: cover;
+  background-position: 50% 0%;
+}
