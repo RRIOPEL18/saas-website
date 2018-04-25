@@ -10,6 +10,10 @@ h1 {
   color: #fff;
 }
 
+nav a {
+  color: #000;
+}
+
 .alternative {
   background-color: #fff;
 }
