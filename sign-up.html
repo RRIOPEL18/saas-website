@@ -36,11 +36,14 @@
     <section class="banner-index relative pad-t">
       <div class="banner-text absolute">
         <h1 class="pad-t island">Start Saving and Sharing your files now</h1>
+        <div class="text-center">
+          <a class="btn btn-ghost btn-banner bold push" href="tour.html">Take a Tour</a>
+        </div>
       </div>
     </section>
   </header>
 
-  <main id="main" tabindex="0">
+  <main role="main" id="main" tabindex="0">
     <section class="contact pad-t-2 pad-b-2">
       <div class="max-length">
         <h2>Registration</h2>
@@ -50,12 +53,13 @@
             <input id="name" name="name" required>
           </div>
           <div class="push">
+
             <label for="email">Your e-mail</label>
-            <input id="email" type="email" placeholder="me@me.com" name="email" required>
+            <input id="email" type="email" placeholder="example@email.com" name="email" reqiuired aria-label="example@email.com">
           </div>
           <div class="push">
-            <label for="email">Password</label>
-            <input id="password" type="password" name="password" required>
+            <label for="userpassword">Password</label>
+            <input id="userpassword" type="password" name="password" required aria-label="password">
           </div>
           <div class="text-center">
             <button class="btn btn-ghost btn-banner bold push" type="submit">Submit</button>
