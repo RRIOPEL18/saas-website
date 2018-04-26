@@ -64,19 +64,19 @@ th {
   background-image: url("../images/laptop-2589420.jpg");
   min-height: 500px;
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 50%;
 }
 
 .banner-pricing {
   background-image: url("../images/lauren-mancke-69437-unsplash.jpg");
   min-height: 500px;
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 50%;
 }
 
 .banner-sign-up {
   background-image: url("../images/lauren-mancke-69437-unsplash.jpg");
   min-height: 500px;
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 50%;
 }
