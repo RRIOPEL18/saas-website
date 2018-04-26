@@ -12,10 +12,12 @@ h1 {
 
 nav a {
   color: #000;
+  text-decoration: none;
 }
 
 a:hover {
   color: #f9f1f1;
+  text-decoration: underline;
 }
 
 .pricingh1 {
