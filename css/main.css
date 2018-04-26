@@ -34,14 +34,14 @@ th {
 }
 
 .pricing {
-  background-color: #bcbec0;
+  background-color: #f9f9f9;
 }
 
 .banner-index {
   background-image: url("../images/gilles-lambert-8649-unsplash.jpg");
   min-height: 400px;
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 50%;
 }
 
 .banner-tour {
