@@ -44,9 +44,9 @@
   </header>
 
   <main role="main" id="main" tabindex="0">
-    <section class="contact pad-t-2 pad-b-2">
-      <div class="max-length">
-        <h2>Registration</h2>
+    <section class="unit contact pad-t-2 pad-b-2 w-1">
+      <div class="max-length island">
+        <h2 class="nina push-0 color-brand-dark gutter-1-2 text-center">Registration</h2>
         <form class="push-0" method="POST" action="https://formspree.io/riop0063@algonquinlive.com">
           <div class="push">
             <label for="name">Name</label>
@@ -67,22 +67,46 @@
         </form>
       </div>
     </section>
-  </main>
 
-  <footer class="text-center" role="contentinfo">
-    <i class="icon i-32 embed embed-1by1 pad-t">
-      <a href="https://www.twitter.com/Dropbox"><img class="embed-item" src="images/twitter.svg" alt="twitter"></a>
-    </i>
-    <i class="icon i-32 embed embed-1by1 pad-t">
-      <a href="https://www.facebook.com/Dropbox"><img class="embed-item" src="images/facebook.svg" alt="facebook"></a>
-    </i>
-    <i class="icon i-32 embed embed-1by1 pad-t">
-      <a href="https://www.instagram.com/Dropbox"><img class="embed-item" src="images/instagram.svg" alt="instagram"></a>
-    </i>
-    <div class="text-left">
-      <small class="italic">All rights reserved 2018*</small>
-    </div>
-  </footer>
+    <section>
+      <div class="unit contact pad-t pad-b w-1">
+        <div class="wrapper">
+          <h2 class="push-0 color-brand-dark gutter-1-2 text-center nina">Questions?</h2>
+          <p class="mega max-length gutter-1-2 bold text-center italic">Contact Us</p>
 
-</body>
-</html>
+          <form class="grid" method="post" action="#">
+            <div class="unit [ xs-1 s-1 m-1 l-1 ] push gutter-1-2">
+              <label for="name" class="push-1-8">Your name</label>
+              <input id="name" required>
+            </div>
+            <div class="unit [ xs-1 s-1 m-1 l-1 ] push gutter-1-2">
+              <label for="email" class="push-1-8">E-mail address</label>
+              <input id="email" type="email" required>
+            </div>
+            <div class="unit [ xs-1 s-1 m-1 l-1 ] push gutter-1-2">
+              <label for="text" class="push-1-8">Comments</label>
+              <textarea id="text" name="comment" required></textarea>
+            </div>
+            <div class="push unit xs-1 text-center">
+              <a class="btn btn-ghost btn-banner bold push" href="index.html">Send</a>
+            </div>
+          </section>
+        </main>
+
+        <footer class="text-center" role="contentinfo">
+          <i class="icon i-32 embed embed-1by1 pad-t">
+            <a href="https://www.twitter.com/Dropbox"><img class="embed-item" src="images/twitter.svg" alt="twitter"></a>
+          </i>
+          <i class="icon i-32 embed embed-1by1 pad-t">
+            <a href="https://www.facebook.com/Dropbox"><img class="embed-item" src="images/facebook.svg" alt="facebook"></a>
+          </i>
+          <i class="icon i-32 embed embed-1by1 pad-t">
+            <a href="https://www.instagram.com/Dropbox"><img class="embed-item" src="images/instagram.svg" alt="instagram"></a>
+          </i>
+          <div class="text-left">
+            <small class="italic">All rights reserved 2018*</small>
+          </div>
+        </footer>
+
+      </body>
+      </html>
