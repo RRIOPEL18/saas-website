@@ -18,6 +18,18 @@ a:hover {
   color: #f9f1f1;
 }
 
+.pricingh1 {
+  color: #079992;
+}
+
+.featuresh1 {
+  color: #079992;
+}
+
+.sign-uph1 {
+  color: #079992;
+}
+
 .alternative {
   background-color: #fff;
 }
@@ -56,6 +68,13 @@ th {
 }
 
 .banner-pricing {
+  background-image: url("../images/lauren-mancke-69437-unsplash.jpg");
+  min-height: 500px;
+  background-size: cover;
+  background-position: 50% 0%;
+}
+
+.banner-sign-up {
   background-image: url("../images/lauren-mancke-69437-unsplash.jpg");
   min-height: 500px;
   background-size: cover;
